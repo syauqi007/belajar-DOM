@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas DOM</title>
+</head>
+<body>
+	<h1>Form perhitungan matematika</h1><hr>
+	<h2>Muhamad Syauqi Mabruri</h2>
+	<h3>19.01.4438</h3>
+	<hr/>
+	Pilih Perhitungan :
+	<select name="opsiPerhitungan" id="opsiPerhitungan">
+		<option value="0">Pilih Perhitungan</option>
+		<option value="1">Luas Bola</option>
+		<option value="2">Volume Bola</option>
+		<option value="3">Luas Permukaan Tabung</option>
+		<option value="4">Volume Tabung</option>
+	</select>
+	<br/><br/>
+	Jari-jari (r) = <input type="text" name="jari" id="jari" value="0">
+	<br/><br/>
+	Tinggi (t) = <input type="text" name="tinggi" id="tinggi" value="0">
+	<br/>
+	<br/>
+	<button id="submitBtn">Hitung</button>
+	<hr/>
+	<div id="hasilHitung">
+		<span id="judul_hitung">Hasil Perhitungan</span> = <span id="hasil_perhitungan">0</span><br>
+	</div>
+	<hr/>
+	<p>
+		Rumus Luas Bola : 4 . π . r²
+	</p>
+	<p>
+		Rumus Volume Bola : 4/3 . π . r³
+	</p>
+	<p>
+		Rumus Luas Permukaan Tabung : 2 . π . r . ( t + r )
+	</p>
+	<p>
+		Rumus Luas Tabung : π . r² . t
+	</p>
+	<p>
+		π = 3,14
+	</p>
+	<hr/>
+	<script type="text/javascript" src="domForm.js"></script>
+</body>
+</html>
